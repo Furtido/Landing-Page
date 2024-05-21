@@ -43,24 +43,33 @@ a {
 
 .hero-container {
     display: flex;
+    flex-wrap: wrap;
     background-color: #1B1B1B;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 3%;
     padding-bottom: 5%;
 }
 
 .hero-container-text {
-    margin-left: 5%;
+    margin-left: 1.5%;
+    margin-bottom: 3%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     color: #F4EFE2;
     font-family: Lato;
     width: 50%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .hero-container-img {
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.img-hero {
+    max-height: 400px;
+    max-height: 600px;
 }
 
 .text-principal {
@@ -183,6 +192,10 @@ a {
     border: 2px solid #F4EFE2;
     border-radius: 6px;
     padding: 10px 20px;
+}
+
+.call-box-button {
+    display: flex;
 }
 
 .call-box-button:hover {
